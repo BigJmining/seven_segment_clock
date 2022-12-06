@@ -36,7 +36,6 @@ class CLOCK:
     def pass_the_time(self):
         
         time_now = (datetime.datetime.now().strftime("%H%M"))
-        print(time_now)
        
         digit_1 = time_now[0]
         digit_2 = time_now[1]
